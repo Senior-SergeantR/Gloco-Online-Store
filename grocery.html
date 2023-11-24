@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> complete responsive Grocery website esign tutorial</title>
+   
+  <link rel= "stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- font awesome cdn link -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
    <!-- custom css file link -->
@@ -141,9 +143,9 @@
 
 <section class="products" id="products">
     <h1 class="heading">our <span>products</span></h1>
-    <div class="product-slider">
-        <div class="wrapper">
-            <div class="box">
+    <div class=" swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
              <img src="images/fresh orange.jfif" alt="">
              <h3>fresh orange</h3>
              <div class="price"> $4.99/- - 10.99/-</div> 
@@ -157,7 +159,7 @@
                </div>
                <a href="#" class="btn">add to cart</a>
             </div>
-            <div class="box">
+            <div class="swiper-slide box">
                 <img src="images/fresh onion.jfif" alt="">
                 <h3>fresh onion</h3>
                 <div class="price"> $4.99/- - 10.99/-</div> 
@@ -171,7 +173,7 @@
                   </div>
                   <a href="#" class="btn">add to cart</a>
                </div>
-               <div class="box">
+               <div class="swiper-slide box">
                 <img src="images/fresh meat.jfif" alt="">
                 <h3>fresh meat</h3>
                 <div class="price"> $4.99/- - 10.99/-</div> 
@@ -185,7 +187,7 @@
                   </div>
                   <a href="#" class="btn">add to cart</a>
                </div>
-               <div class="box">
+               <div class="swiper-slide box">
                 <img src="images/fresh cabbage.jfif" alt="">
                 <h3>fresh cabbage</h3>
                 <div class="price"> $4.99/- - 10.99/-</div> 
@@ -201,9 +203,9 @@
                </div>
         </div>
     </div>
-    <div class="product-slider">
-        <div class="wrapper">
-            <div class="box">
+    <div class=" swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
              <img src="images/fresh potatoes.jfif" alt="">
              <h3>fresh potatoes</h3>
              <div class="price"> $4.99/- - 10.99/-</div> 
@@ -217,7 +219,7 @@
                </div>
                <a href="#" class="btn">add to cart</a>
             </div>
-            <div class="box">
+            <div class="swiper-slide box">
                 <img src="images/fresh avocado.jfif" alt="">
                 <h3>fresh avocado</h3>
                 <div class="price"> $4.99/- - 10.99/-</div> 
@@ -231,8 +233,8 @@
                   </div>
                   <a href="#" class="btn">add to cart</a>
                </div>
-               <div class="box">
-                <img src="images/fresh carrot.jfif" alt="">
+               <div class="swiper-slide box">
+                <img src="images/fresh carrot.jpg" alt="">
                 <h3>fresh carrot</h3>
                 <div class="price"> $4.99/- - 10.99/-</div> 
                   <div class="star">
@@ -245,7 +247,7 @@
                   </div>
                   <a href="#" class="btn">add to cart</a>
                </div>
-               <div class="box">
+               <div class="swiper-slide box">
                 <img src="images/green lemon.jfif" alt="">
                 <h3>green lemon</h3>
                 <div class="price"> $4.99/- - 10.99/-</div> 
@@ -262,8 +264,6 @@
         </div>
     </div>
 </section>
-
-
 <!-- products section ends -->
 
 
@@ -303,6 +303,7 @@
 
 
     <!-- custom js file -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="grocery.js"></script>
 </body>
 </html>
