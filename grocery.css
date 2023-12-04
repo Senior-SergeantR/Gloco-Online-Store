@@ -246,7 +246,7 @@ padding-left: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../Gloco-Online-Store/ban.jpeg) no-repeat; 
+  background: url(../Gloco-Online-Store/bavnner.avif) no-repeat; 
   background-position: center;
   background-size: cover;
   padding-top: 17rem;
@@ -257,8 +257,9 @@ padding-left: 1rem;
   width: 60rem;  
 }
 .home .content h3 {
-    color: var(--black);
+    color: var(--light-color);
     font-size: 3rem;
+  
 }
 .home .content h3 span{
     color: var(--orange);
