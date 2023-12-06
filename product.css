@@ -255,7 +255,7 @@ padding-left: 1rem;
 .products .product-slider .box{
     background: #fff;
     border-radius: .5rem;
-    padding: 3rem 2rem;
+    padding: 3rem;
     outline-offset: -1rem;
     outline: var(--outline);
     box-shadow: var(--box-shadow);
