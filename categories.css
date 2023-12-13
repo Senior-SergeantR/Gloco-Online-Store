@@ -50,23 +50,23 @@ section {
 
 }
 
-.head{
+/* .head{
     text-align: center;
     padding: 2rem 0;
     padding-bottom: 3rem;
     font-size: 1.5rem;
     color: var(--black);
   
-  }
-  .head span {
+  } */
+  /* .head span {
      background-color:navy;
      color: #fff;
      display: inline-block;
      padding-right: .2rem;
      text-align: center;
-     /* clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%); */
+      clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%); 
   
-  }
+  } */
   
 .btn {
   margin-top: 1rem;
@@ -269,14 +269,20 @@ padding-left: 1rem;
   margin-bottom:50px;
 }
 
-.box{
+.boxes{
   position: relative;
   
   width: 100%;
   box-shadow: 2px 5px 5px 0px rgb(0, 0, 0, 0.3);
 
+}
+
+.box{
+  position: relative;
   
- 
+  width: 100%;
+  
+
 }
 
 .image {
@@ -302,7 +308,7 @@ padding-left: 1rem;
   transition: 1s ease;
 }
 
-.box:hover .overlay {
+.boxes:hover .overlay {
   bottom: 0;
   height: 100%;
   border-top-right-radius: 5px;
