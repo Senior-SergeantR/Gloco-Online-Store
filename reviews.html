@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> complete responsive Grocery website esign tutorial</title>
+   
+  <link rel= "stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- font awesome cdn link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <!-- custom css file link -->
+   <link rel="stylesheet" href="grocery.css">
+</head>
+<body>
+   <!--header section start  -->
+<header class="header">
+  <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i>groco</a>
+   <nav class="navbar">
+    <a href="index.html" >home</a>
+    <a href="features.html">About</a>
+    <a href="./grocery.html">products</a>
+    <a href="categories.html">categories</a>
+    <a href="./reviews.html #review" style="color: #ff7800;">reviews</a>
+    <a href="blog.html">blogs</a>
+   </nav> 
+   <div class="icons">
+    <div class="fas fa-bars" id="menu-btn"></div>
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <div class="fas fa-user" id="login-btn"></div>
+   </div>
+   <form action="" class="search-form">
+    <input type="text"  id="search-box" placeholder="search here...">
+    <label for="search-box" class="fas fa-search"></label>
+   </form>
+
+   <div class="shopping-cart">
+    <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="images/watermelon-removebg-preview.png" alt="">
+        <div class="content">
+            <h3>watermelon</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="images/onion.jfif" alt="">
+        <div class="content">
+            <h3>Onions</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="images/chicken.jfif" alt="">
+        <div class="content">
+            <h3>chicken</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+        </div>
+    </div>
+
+     <div class="total">total : $19.69/-</div>
+     <a href="#" class="btn">checkout</a>
+   </div>
+  <form action="" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="your email" class="box">
+    <input type="password" placeholder="your password" class="box">
+    <p>forget your password <a href="#"> click here</a></p>
+    <p>don't have an account <a href="#"> create now</a></p>
+
+    <input type="submit" value="login now" class="btn">
+  </form>
+</header>
+   <!-- header section ends -->
+
+<!-- review section starts -->
+
+<section class="review" id="review" style="margin-top: 70px;">
+  <h1 class="heading"> Customer's <span>review</span></h1>
+
+  <div class=" swiper review-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide box">
+        <img src="images/review.avif" alt="">
+        <p>"The organic oranges are sunshine in a peel! Bursting with citrusy goodness, they make the perfect morning juice or a refreshing afternoon pick-me-up."</p>
+         <h3>John deo</h3>
+         <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <img src="images/review2.avif" alt="">
+        <p> "Organic carrots are a kitchen essential. Crunchy and sweet, they're great for snacking, roasting, or adding a pop of color to any dish."</p>
+         <h3>tessa eric</h3>
+         <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         </div>
+      </div>
+
+      <div class=" swiper-slide box">
+        <img src="images/review3.avif" alt="">
+        <p> "The organic apples are perfection! Crisp, juicy, and they taste like they were just picked. A healthy snack that satisfies my sweet tooth."</p>
+         <h3>Emma josh</h3>
+         <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <img src="images/review4.avif" alt="">
+        <p> "The heirloom tomatoes are a revelation. Each bite is like a burst of summer! So rich and flavorful, they've turned my salads into works of art."</p>
+         <h3>Christan </h3>
+         <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <img src="images/african man.jpg" alt="">
+        <p>"The organic kale is a game-changer! Crisp, fresh, and vibrant. I use it in smoothies, salads, and stir-fries. It's the superhero of my kitchen!"</p>
+         <h3>Joseph</h3>
+         <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <img src="images/review6.avif" alt="">
+        <p> "The organic blueberries are a snack-time delight! Plump, sweet, and full of antioxidants. My kids love them, and I love that they're pesticide-free."</p>
+         <h3>sophia</h3>
+         <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         </div>
+      </div>
+
+      <div class=" swiper-slide box">
+        <img src="images/review5.avif" alt="">
+        <p>"Organic avocados are my kitchen staple. Creamy, buttery, and packed with goodness. They elevate my morning toast and make the best guacamole."</p>
+         <h3>jack</h3>
+         <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <img src="images/woman.jpg" alt="">
+        <p> "Absolutely love the organic strawberries! 
+          Bursting with flavor and so much juicier than 
+          conventional ones. A guilt-free treat that's"</p>
+         <h3>Elizabeth</h3>
+         <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- review section ends -->
+
+<!--footer section starts  -->
+
+<section class="footer">
+
+  <div class="box-container">
+    <div class="box">
+      <h3> groco <i class="fas fa-shopping-basket"></i></h3>
+      <p>Welcome to GroCo, your premier online store for fresh, 
+      organic goodness! We offer a curated selection of nutrient-packed 
+      fruits, vibrant vegetables, and more. From farm to your doorstep, 
+      experience the convenience of healthy living with GroCo's quality 
+      produce. Shop now and savor nature's best!.</p>
+      <div class="share">
+       <a href="#" class="fab fa-facebook-f"></a>
+       <a href="#" class="fab fa-twitter"></a>
+       <a href="#" class="fab fa-instagram"></a>
+       <a href="#" class="fab fa-linkedin"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <h3>contact info</h3>
+     <a href="#" class="links"><i class="fas fa-phone"></i>+254705050505</a>
+     <a href="#" class="links"><i class="fas fa-phone"></i>+254788505050</a>
+     <a href="#" class="links"><i class="fas fa-envelope"></i>muniish@gmail.com</a>
+     <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Mombasa, Nairobi--070505</a>
+    </div>
+
+    <div class="box">
+      <h3>Quick links</h3>
+     <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+     <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+     <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+     <a href="#" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+     <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+     <a href="#" class="links"><i class="fas fa-arrow-right"></i>blogs</a>
+     
+    </div>
+
+    <div class="box">
+      <h3>newsletter</h3>
+     <p>subscribe for latest updates</p>
+     <input type="text"  placeholder="your email" class="email">
+     <input type="submit" value="subscribe" class="btn">
+     <img src="images/payment.jpg"  class="payment-img" alt="">
+    </div>
+
+  </div>
+
+  <div class="credit"> creted by <span> mrs. web designer </span> | all rights reserved </div>
+
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="grocery.js"></script>
+</body>
+</html>
